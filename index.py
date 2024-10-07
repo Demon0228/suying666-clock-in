@@ -156,7 +156,7 @@ def sendMessage(msg):
         res = requests.post(
             url='https://sctapi.ftqq.com/' + key + '.send',
             data={
-                'title': '速鹰666自动签到结果通知',
+                'title': '速鹰666自动签到结果',
                 'desp': msg
             },
             timeout=30
